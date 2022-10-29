@@ -1,6 +1,6 @@
 # OSCAL Reusable Component Defintions Library
 
-`version 0.0.1`
+`version 0.1.0`
 
 This is a reusable compliance component library. It contains (either or both)
 [OpenControl](https://open-control.org/) and [NIST OSCAL](https://pages.nist.gov/OSCAL/)
@@ -35,7 +35,7 @@ A perhaps simpler way to think of a component is as:
 - `README.md`
   - This file.
 - `code.json`
-  - The format of this` file is defined in
+  - The format of this file is defined in
     <https://code.gov/agency-compliance/compliance/inventory-code>.
   - We expect that there will be a number of component libraries offering reusable,
     general-purpose components.
@@ -45,13 +45,16 @@ A perhaps simpler way to think of a component is as:
     - `OSCAL Component Library`
     - `NIST SP 800-53r4`
     - `NIST SP 800-53r5`
-    - `CMS ARS 3.1`
     - `CMS ARS 5.0`
     - `OpenControl`
-    - `OSCAL v1.0.x``
+    - `OSCAL v1.0.x`
+
+- `example-org-metadata.json`
+  - Metadata, defined by an agency, organization or group, that can provide defaults
+    when viewng component definitions or assembling them into SSPs.
 
 - `component-name/`
-  - The name of a component in the library, e.g. "`cloud-protection-manager`".
+  - The name of a component-definition in the library, e.g. "`django`".
   - Note that there may be several instances of the `component-name` with different uses,
     inheritance, impact levels, etc. Initially we will manage these as branches.
   - We could instead add a level of indirection: `component-name/unique-descriptive-tag/` such as:

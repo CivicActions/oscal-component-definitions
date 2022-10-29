@@ -1,0 +1,47 @@
+{
+  "organization-defaults": {
+    "uuid": "a7ba800c-a432-44cd-9075-0862cd66da6b",
+    "metadata": {
+      "title": "Example Organization SSP Metadata",
+      "last-modified": "2022-06-08T13:57:28.355446-04:00",
+      "version": "20220723",
+      "roles": [
+        {
+          "id": "provider",
+          "title": "Provider"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "ee47836c-877c-4007-bbf3-c9d9bd805a9a",
+          "name": "Example Vendor",
+          "type": "organization"
+        }
+      ],
+      "responsible-roles": [
+        {
+          "role-id": "provider",
+          "party-uuids": [
+            "ee47836c-877c-4007-bbf3-c9d9bd805a9a"
+          ]
+        }
+      ],
+      "component-libraries": [
+        {
+          "name": "CivicActions",
+          "url": "https://..."
+        }
+      ],
+      "component-definitions": [
+        {
+          "name": "django",
+          "url": "https://github.com/CivicActions/component-library/tree/main/django"
+        },
+        {
+          "name": "drupal",
+          "url": "https://github.com/CivicActions/component-library/tree/main/drupal"
+        }
+      ]
+    }
+  }
+}
