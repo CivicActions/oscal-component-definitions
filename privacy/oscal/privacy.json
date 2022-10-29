@@ -1,0 +1,159 @@
+{
+  "component-definition": {
+    "uuid": "e3fe90d4-2cb1-4f6f-900c-787cc393f3c0",
+    "metadata": {
+      "title": "Privacy",
+      "published": "2022-10-10T17:07:00.930720+00:00",
+      "last-modified": "2022-10-10T17:07:00.930726+00:00",
+      "version": "unknown",
+      "oscal-version": "1.0.0"
+    },
+    "components": [
+      {
+        "uuid": "38c94487-9569-4c52-9544-0ae55772e895",
+        "type": "software",
+        "title": "Privacy",
+        "description": "A component referencing NIST-800-53 Privacy controls.",
+        "control-implementations": [
+          {
+            "uuid": "fa173924-77ec-4f3d-955f-60b7abe195b1",
+            "source": "https://raw.githubusercontent.com/usnistgov/oscal-content/master/nist.gov/SP800-53/rev4/json/NIST_SP-800-53_rev4_catalog.json",
+            "description": "NIST_SP80053r4",
+            "implemented-requirements": [
+              {
+                "uuid": "94f457ce-8b90-4fb8-b175-e9552e5e3e62",
+                "control-id": "ap-1",
+                "description": "The Client, as the governing agency of The Project, has authorized the collection of user names and email addresses for the purpose of authenticating to the Project system."
+              },
+              {
+                "uuid": "28118493-b94f-4dd2-a126-45c11bb05a42",
+                "control-id": "ap-2",
+                "description": "Project does not collect PII other than that covered by the \"Rolodex exception\". Anonymous access is possible, but community participation require an account for which these fields are required:\n* Email address - used for identification.\n* First name, last name - used for addressing a logged in user.\nAny additional information is entered by the user at will to enhance community participation in forums."
+              },
+              {
+                "uuid": "481ce8e3-462c-4561-b148-954538af3d52",
+                "control-id": "ar-1",
+                "description": "Project does not collect or maintain PII and therefore does not directly address this control though it may address it indirectly."
+              },
+              {
+                "uuid": "93b5623e-322b-4493-be41-45da167bf647",
+                "control-id": "ar-2",
+                "description": "Project does not collect or maintain PII and therefore does not directly address this control though it may address it indirectly."
+              },
+              {
+                "uuid": "906854d0-5000-4554-8017-800366555aee",
+                "control-id": "ar-3",
+                "description": "Project does not collect or maintain PII and therefore does not directly address this control though it may address it indirectly."
+              },
+              {
+                "uuid": "7b35680c-4bc1-403a-8f2f-a130efe8dfea",
+                "control-id": "ar-4",
+                "description": "Project does not collect or maintain PII and therefore does not directly address this control though it may address it indirectly."
+              },
+              {
+                "uuid": "202873fd-f831-4a1e-8050-9a1dd6563544",
+                "control-id": "ar-5",
+                "description": "Project does not collect or maintain PII and therefore does not directly address this control though it may address it indirectly."
+              },
+              {
+                "uuid": "32f77d00-74d3-4893-a858-ec35f2da8488",
+                "control-id": "ar-6",
+                "description": "Project does not collect or maintain PII and therefore does not directly address this control though it may address it indirectly."
+              },
+              {
+                "uuid": "920f579c-57b8-4860-831a-6b5fd98f37e1",
+                "control-id": "ar-7",
+                "description": "Project does not collect or maintain PII and therefore does not directly address this control though it may address it indirectly."
+              },
+              {
+                "uuid": "e8b4e3eb-eff4-438f-92db-49808dd6d6c8",
+                "control-id": "ar-8",
+                "description": "Project does not collect or maintain PII and therefore does not directly address this control though it may address it indirectly."
+              },
+              {
+                "uuid": "da7c528a-a884-4d41-934b-e66e6c51b528",
+                "control-id": "di-1",
+                "description": "Project does not collect or maintain PII and therefore does not directly address this control though it may address it indirectly. Users enter and have full access to update or delete any information they input."
+              },
+              {
+                "uuid": "238c5733-4a37-44c3-941c-21c9ea61046d",
+                "control-id": "di-2",
+                "description": "Project does not collect or maintain PII and therefore does not directly address this control though it may address it indirectly. Users enter and have full access to update or delete any information they input."
+              },
+              {
+                "uuid": "0e7cf273-faa8-4550-be02-81384dd00fe8",
+                "control-id": "dm-1",
+                "description": "Project does not collect or maintain PII and therefore does not directly address this control though it may address it indirectly. The data collected (email address, first and last name) is demonstrably a minimum."
+              },
+              {
+                "uuid": "f1d2aca4-3105-484c-b5c6-07fd196a4bba",
+                "control-id": "dm-2",
+                "description": "Project does not collect or maintain PII and therefore does not directly address this control though it may address it indirectly."
+              },
+              {
+                "uuid": "e2839944-36ea-49b0-8878-45ceae412711",
+                "control-id": "dm-3",
+                "description": "Project does not collect or maintain PII and therefore does not directly address this control though it may address it indirectly."
+              },
+              {
+                "uuid": "b8f7a6ba-0e1a-444b-9943-e1ff25875c98",
+                "control-id": "ip-1",
+                "description": "Project does not collect or maintain PII and therefore does not directly address this control though it may address it indirectly. Users enter and have full access to update or delete any information they input."
+              },
+              {
+                "uuid": "aaa4168d-e2a3-4830-8f5a-121f285e5560",
+                "control-id": "ip-2",
+                "description": "Project does not collect or maintain PII and therefore does not directly address this control though it may address it indirectly. Users enter and have full access to update or delete any information they input."
+              },
+              {
+                "uuid": "37b62101-6fdf-46c6-ad84-d57b5d6636bf",
+                "control-id": "ip-3",
+                "description": "Project does not collect or maintain PII and therefore does not directly address this control though it may address it indirectly. Users enter and have full access to update or delete any information they input."
+              },
+              {
+                "uuid": "141a6097-9a1c-4400-acb5-24517d5d009f",
+                "control-id": "ip-4",
+                "description": "Project does not collect or maintain PII and therefore does not directly address this control though it may address it indirectly. Users enter and have full access to update or delete any information they input."
+              },
+              {
+                "uuid": "20de946f-9eb2-4ef9-ba92-51c77ef573c5",
+                "control-id": "se-1",
+                "description": "Project does not collect or maintain PII and therefore does not directly address this control though it may address it indirectly."
+              },
+              {
+                "uuid": "b71920f7-5526-491e-8122-6cf82d39f87d",
+                "control-id": "se-2",
+                "description": "Project does not collect or maintain PII and therefore does not directly address this control though it may address it indirectly."
+              },
+              {
+                "uuid": "7deb2c48-e9a6-4cb7-8a86-7e0911841a23",
+                "control-id": "tr-1",
+                "description": "Project publishes a privacy policy in the footer of every page. Further, upon login, the user must accept a detailed Terms and Conditions of Use."
+              },
+              {
+                "uuid": "2d8c088f-5e9a-46b7-84d5-5a5dfd11e1a6",
+                "control-id": "tr-2",
+                "description": "Project does not collect or maintain PII and therefore does not publish a SORN."
+              },
+              {
+                "uuid": "e31f35dd-5925-4070-bd46-35e7deb02b96",
+                "control-id": "tr-3",
+                "description": "Project publishes a privacy policy in the footer of every page. Further, upon login, the user must accept a detailed Terms and Conditions of Use."
+              },
+              {
+                "uuid": "90eecc13-b17b-49e5-bb5d-0137a34c031e",
+                "control-id": "ul-1",
+                "description": "The information is collected on the Project is for identification and authentication purposes, allowing individuals to:\n\n- Identify themselves to the system\n- Authenticate with the system to prove that they are the same person when they return\n- Enable emailed password reset\n- Access control (e.g. updating notification settings, following a moderation of a discussion, etc.)\n- Carry out actions that impact that individual (e.g. joining a course or signing up for a mailing list subscription)\n- Publish information to make it available to others (e.g. forum posting, comment on publications of learning resources, etc.)"
+              },
+              {
+                "uuid": "57299c0b-d866-4b9a-8b15-8c425f57920f",
+                "control-id": "ul-2",
+                "description": "Project does not share any collected information with any third parties."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,266 @@
+name: Django
+key: >-
+  Django is a free and open-source, Python-based web framework that follows the
+  model–template–views architectural pattern.
+schema_version: 3.0.0
+documentation_complete: false
+satisfies:
+- control_key: AC-03
+  control_name: Access Enforcement
+  standard_key: NIST SP 800-53 Revision 4
+  covered_by: []
+  parameters:
+  - key: security_control_type
+    text: Hybrid
+  narrative:
+  - text: >-
+      The Django web framework can be configured to enforce logical access to its
+      information and services.
+  remarks:
+  - text: ''
+- control_key: AC-07
+  control_name: Unsuccessful Logon Attempts
+  standard_key: NIST SP 800-53 Revision 4
+  covered_by: []
+  parameters:
+  - key: security_control_type
+    text: Hybrid
+  narrative:
+  - text: >-
+      Django can be configured to lock an account after a specified number of invalid
+      login attempts within a specified time period.
+  remarks:
+  - text: ''
+- control_key: AC-11
+  control_name: Session Lock
+  standard_key: NIST SP 800-53 Revision 4
+  covered_by: []
+  parameters:
+  - key: security_control_type
+    text: Hybrid
+  narrative:
+  - text: >-
+      The Django web framework has built-in session management that includes locking a
+      session after a specific duration of inactivity.
+  remarks:
+  - text: ''
+- control_key: AC-12
+  control_name: Session Termination
+  standard_key: NIST SP 800-53 Revision 4
+  covered_by: []
+  parameters:
+  - key: security_control_type
+    text: Hybrid
+  narrative:
+  - text: >-
+      Django can be configured to terminate a user session when defined
+      conditions or trigger events occur.
+  remarks:
+  - text: ''
+- control_key: AC-14
+  control_name: Permitted Actions Without Identification or Authentication
+  standard_key: NIST SP 800-53 Revision 4
+  covered_by: []
+  parameters:
+  - key: security_control_type
+    text: Hybrid
+  - key: provider
+    text: 'No'
+  narrative:
+  - text: >-
+      The Django web framework has built-in session management and path routing that are
+      combined to control which actions can be performed by anonymous end-users without
+      authentication.
+  remarks:
+  - text: ''
+- control_key: AU-02
+  control_name: Audit Events
+  standard_key: NIST SP 800-53 Revision 4
+  covered_by: []
+  parameters:
+  - key: security_control_type
+    text: Hybrid
+  - key: provider
+    text: 'No'
+  narrative:
+  - text: >-
+      Django can be configured to provide auditable event logs.
+  remarks:
+  - text: ''
+- control_key: IA-02
+  control_name: Identification and Authentication (organizational Users)
+  standard_key: NIST SP 800-53 Revision 4
+  covered_by: []
+  parameters:
+  - key: security_control_type
+    text: Hybrid
+  narrative:
+  - text: >-
+      Django user Authentication can be done via username and password or can be delegated
+      to a Single Sign-On service.
+  remarks:
+  - text: ''
+- control_key: IA-06
+  control_name: Authenticator Feedback
+  standard_key: NIST SP 800-53 Revision 4
+  covered_by: []
+  parameters:
+  - key: security_control_type
+    text: Hybrid
+  narrative:
+  - text: >-
+      The Django web framework obscures passwords when entered during the authentication
+      process. Failed login attempts return a generic error message to the user, not
+      allowing the user to ascertain whether the username or password provided exists in
+      the system.
+  remarks:
+  - text: ''
+- control_key: SC-02
+  control_family: System and Communications Protection
+  control_name: Application Partitioning
+  standard_key: NIST SP 800-53 Revision 4
+  parameters:
+  - key: security_control_type
+    text: Hybrid
+  narrative:
+  - text: >-
+      The Django web framework has separate admin functionality that requires
+      Admininstrator role authentication for access to system management functionality.
+  remarks:
+  - text: ''
+
+- control_key: AC-03
+  control_name: Access Enforcement
+  standard_key: NIST SP 800-53 Revision 5
+  covered_by: []
+  parameters:
+  - key: security_control_type
+    text: Hybrid
+  narrative:
+  - text: >-
+      The Django web framework can be configured to enforce logical access to its
+      information and services.
+  remarks:
+  - text: ''
+- control_key: AC-07
+  control_name: Unsuccessful Logon Attempts
+  standard_key: NIST SP 800-53 Revision 5
+  covered_by: []
+  parameters:
+  - key: security_control_type
+    text: Hybrid
+  narrative:
+  - text: >-
+      Django can be configured to lock an account after a specified number of invalid
+      login attempts within a specified time period.
+  remarks:
+  - text: ''
+- control_key: AC-11
+  control_name: Session Lock
+  standard_key: NIST SP 800-53 Revision 5
+  covered_by: []
+  parameters:
+  - key: security_control_type
+    text: Hybrid
+  narrative:
+  - text: >-
+      The Django web framework has built-in session management that includes locking a
+      session after a specific duration of inactivity.
+  remarks:
+  - text: ''
+- control_key: AC-12
+  control_name: Session Termination
+  standard_key: NIST SP 800-53 Revision 5
+  covered_by: []
+  parameters:
+  - key: security_control_type
+    text: Hybrid
+  narrative:
+  - text: >-
+      Django can be configured to terminate a user session when defined
+      conditions or trigger events occur.
+  remarks:
+  - text: ''
+- control_key: AC-14
+  control_name: Permitted Actions Without Identification or Authentication
+  standard_key: NIST SP 800-53 Revision 5
+  covered_by: []
+  parameters:
+  - key: security_control_type
+    text: Hybrid
+  - key: provider
+    text: 'No'
+  narrative:
+  - text: >-
+      The Django web framework has built-in session management and path routing that are
+      combined to control which actions can be performed by anonymous end-users without
+      authentication.
+  remarks:
+  - text: ''
+- control_key: AU-02
+  control_name: Audit Events
+  standard_key: NIST SP 800-53 Revision 5
+  covered_by: []
+  parameters:
+  - key: security_control_type
+    text: Hybrid
+  - key: provider
+    text: 'No'
+  narrative:
+  - text: >-
+      Django can be configured to provide auditable event logs.
+  remarks:
+  - text: ''
+- control_key: IA-02
+  control_name: Identification and Authentication (organizational Users)
+  standard_key: NIST SP 800-53 Revision 5
+  covered_by: []
+  parameters:
+  - key: security_control_type
+    text: Hybrid
+  narrative:
+  - text: >-
+      Django user Authentication can be done via username and password or can be delegated
+      to a Single Sign-On service.
+  remarks:
+  - text: ''
+- control_key: IA-06
+  control_name: Authenticator Feedback
+  standard_key: NIST SP 800-53 Revision 5
+  covered_by: []
+  parameters:
+  - key: security_control_type
+    text: Hybrid
+  narrative:
+  - text: >-
+      The Django web framework obscures passwords when entered during the authentication
+      process. Failed login attempts return a generic error message to the user, not
+      allowing the user to ascertain whether the username or password provided exists in
+      the system.
+  remarks:
+  - text: ''
+- control_key: SC-02
+  control_family: System and Communications Protection
+  control_name: Application Partitioning
+  standard_key: NIST SP 800-53 Revision 5
+  parameters:
+  - key: security_control_type
+    text: Hybrid
+  narrative:
+  - text: >-
+      The Django web framework has separate admin functionality that requires
+      Admininstrator role authentication for access to system management functionality.
+  remarks:
+  - text: ''
+- control_key: SR-03
+  control_family: Supply Chain Controls and Processes
+  control_name: Application Partitioning
+  standard_key: NIST SP 800-53 Revision 5
+  parameters:
+  - key: security_control_type
+    text: Hybrid
+  narrative:
+  - text: >-
+      The Django web framework is a COTS system that receives regular security updates.
+  remarks:
+  - text: ''

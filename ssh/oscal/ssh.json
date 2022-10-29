@@ -1,0 +1,46 @@
+{
+  "component-definition": {
+    "uuid": "e5189771-b0c9-4759-92d3-879168ce65b7",
+    "metadata": {
+      "title": "SSH",
+      "published": "2022-10-10T17:09:04.692034+00:00",
+      "last-modified": "2022-10-10T17:09:04.692039+00:00",
+      "version": "unknown",
+      "oscal-version": "1.0.0"
+    },
+    "components": [
+      {
+        "uuid": "554ad418-c554-47f2-a8c4-81c137c2ddcf",
+        "type": "software",
+        "title": "SSH",
+        "description": "Common Secure Shell (SSH) control narratives.",
+        "control-implementations": [
+          {
+            "uuid": "e312e174-34a8-4a92-9b56-b59ea82a9e81",
+            "source": "https://raw.githubusercontent.com/usnistgov/oscal-content/master/nist.gov/SP800-53/rev4/json/NIST_SP-800-53_rev4_catalog.json",
+            "description": "NIST_SP80053r4",
+            "implemented-requirements": [
+              {
+                "uuid": "f39313cd-f50a-453e-93c7-96e87b1ed523",
+                "control-id": "ac-2",
+                "description": "Requirements are implemented as described in the included statements.",
+                "statements": [
+                  {
+                    "statement-id": "ac-2_smt.a",
+                    "uuid": "fea8ca89-fc63-49b8-be75-14ff310fc4a4",
+                    "description": "Operations, in collaboration with the Security Office, will set up privileged accounts accounts for the following roles:\n- Developer - user level account that has access to application features and sanitized databases\n- System Administrator - user accounts that enjoy full system administrator (`sudo`) access"
+                  }
+                ]
+              },
+              {
+                "uuid": "4af47d2d-99b2-4655-ad39-8a76b582fe2e",
+                "control-id": "ac-6",
+                "description": "SSH access is provided on a least privilege basis and analyzed on an ongoing basis, at least quarterly. Findings related to these audits of accounts are reported and reviewed by the Security Office and evaluated to determine roles that need to be revoked."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

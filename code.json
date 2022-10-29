@@ -1,0 +1,204 @@
+{
+  "agency": "CivicActions",
+  "version": "1.0.0",
+  "measurementType": {
+    "method": "other",
+    "description": "component, defined by NIST OSCAL as 'A description of the controls that are supported in a given implementation of a hardware, software, service, policy, process, procedure, or compliance artifact' (https://pages.nist.gov/OSCAL/concepts/layer/implementation/component-definition/)."
+  },
+  "releases": [
+    {
+      "name": "AWS IaaS",
+      "version": "v1.x",
+      "organization": "CivicActions",
+      "repositoryURL": "https://github.com/CivicActions/component-library/tree/main/aws",
+      "description": "Amazon Web Services (AWS) Infrastructure as a Service (IaaS)",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "GNU General Public License v3.0 or later",
+            "URL": "http://www.gnu.org/licenses/gpl-3.0.html"
+          }
+        ],
+        "usageType": "FreeAndOpenSource"
+      },
+      "laborHours": 0,
+      "status": "Development",
+      "vcs": "git",
+      "languages": [
+        "OpenControl",
+        "OSCAL"
+      ],
+      "tags": [
+        "NIST SP 800-53 Revision 4",
+        "AWS IaaS",
+        "Amazon Web Services Infrastructure as a Service",
+        "FIPS199 Moderate",
+        "Open Source"
+      ],
+      "contact": {
+        "name": "GitHub Issues",
+        "URL": "https://github.com/CivicActions/component-library/issues"
+      },
+      "date": {
+        "created": "2021-07-16",
+        "lastModified": "2021-07-16",
+        "metadataLastUpdated": "2021-07-20"
+      }
+    },
+    {
+      "name": "Django CMS",
+      "version": "v4.x",
+      "organization": "CivicActions",
+      "repositoryURL": "https://github.com/CivicActions/component-library/tree/main/django",
+        "description": "Django Content Managemment System (CMS)",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "GNU General Public License v3.0 or later",
+            "URL": "http://www.gnu.org/licenses/gpl-3.0.html"
+          }
+        ],
+        "usageType": "FreeAndOpenSource"
+      },
+      "laborHours": 0,
+      "status": "Development",
+      "vcs": "git",
+      "languages": [
+        "OpenControl",
+        "OSCAL"
+      ],
+      "tags": [
+        "NIST SP 800-53 Revision 4",
+        "Django",
+        "Django CMS",
+        "FIPS199 Moderate",
+        "Open Source"
+      ],
+      "contact": {
+        "name": "GitHub Issues",
+        "URL": "https://github.com/CivicActions/component-library/issues"
+      },
+      "date": {
+        "created": "2021-07-16",
+        "lastModified": "2021-07-16",
+        "metadataLastUpdated": "2021-07-20"
+      }
+    },
+    {
+      "name": "Drupal CMS",
+      "version": "v9.x",
+      "organization": "CivicActions",
+      "repositoryURL": "https://github.com/CivicActions/component-library/tree/main/drupal",
+        "description": "Drupal Content Managemen System" (CMS),
+      "permissions": {
+        "licenses": [
+          {
+            "name": "GNU General Public License v3.0 or later",
+            "URL": "http://www.gnu.org/licenses/gpl-3.0.html"
+          }
+        ],
+        "usageType": "FreeAndOpenSource"
+      },
+      "laborHours": 0,
+      "status": "Development",
+      "vcs": "git",
+      "languages": [
+        "OpenControl",
+        "OSCAL"
+      ],
+      "tags": [
+        "NIST SP 800-53 Revision 4",
+        "Drupal",
+        "Drupal CMS",
+        "FIPS199 Moderate",
+        "Open Source"
+      ],
+      "contact": {
+        "name": "GitHub Issues",
+        "URL": "https://github.com/CivicActions/component-library/issues"
+      },
+      "date": {
+        "created": "2021-07-16",
+        "lastModified": "2021-07-16",
+        "metadataLastUpdated": "2021-07-20"
+      }
+    },
+    {
+      "name": "Ilias",
+      "version": "v7.x",
+      "organization": "CivicActions",
+      "repositoryURL": "https://github.com/CivicActions/component-library/tree/main/ilias",
+        "description": "Ilias Learning Management System (LMS)",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "GNU General Public License v3.0 or later",
+            "URL": "http://www.gnu.org/licenses/gpl-3.0.html"
+          }
+        ],
+        "usageType": "FreeAndOpenSource"
+      },
+      "laborHours": 0,
+      "status": "Development",
+      "vcs": "git",
+      "languages": [
+        "OpenControl",
+        "OSCAL"
+      ],
+      "tags": [
+        "NIST SP 800-53 Revision 4",
+        "Ilias",
+        "Ilias LMS",
+        "FIPS199 Moderate",
+        "Open Source"
+      ],
+      "contact": {
+        "name": "GitHub Issues",
+        "URL": "https://github.com/CivicActions/component-library/issues"
+      },
+      "date": {
+        "created": "2021-07-16",
+        "lastModified": "2021-07-16",
+        "metadataLastUpdated": "2021-07-20"
+      }
+    },
+    {
+      "name": "SSH",
+      "version": "v1.0.0",
+      "organization": "CivicActions",
+      "repositoryURL": "https://github.com/CivicActions/component-library/tree/main/ssh",
+        "description": "Secure Shell (SSH)",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "GNU General Public License v3.0 or later",
+            "URL": "http://www.gnu.org/licenses/gpl-3.0.html"
+          }
+        ],
+        "usageType": "FreeAndOpenSource"
+      },
+      "laborHours": 0,
+      "status": "Development",
+      "vcs": "git",
+      "languages": [
+        "OpenControl",
+        "OSCAL"
+      ],
+      "tags": [
+        "NIST SP 800-53 Revision 4",
+        "SSH",
+        "FIPS199 Moderate",
+        "Open Source"
+      ],
+      "contact": {
+        "name": "GitHub Issues",
+        "URL": "https://github.com/CivicActions/component-library/issues"
+      },
+      "date": {
+        "created": "2021-07-16",
+        "lastModified": "2021-07-16",
+        "metadataLastUpdated": "2021-07-20"
+      }
+    },
+  ]
+}
