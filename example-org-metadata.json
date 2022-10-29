@@ -29,7 +29,7 @@
       "component-libraries": [
         {
           "name": "CivicActions",
-          "url": "https://..."
+          "url": "https://github.com/CivicActions/component-library"
         }
       ],
       "component-definitions": [
