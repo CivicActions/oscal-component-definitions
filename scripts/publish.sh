@@ -7,7 +7,7 @@ exit 1
 # Run from the activated rato-processing environment
 # Expected directory structure:
 # workspace/atoasap/rato-processing/  -- activated
-#                  /component-library/
+#                  /oscal-component-definitions/
 #                  /compliance-io/    -- activated
 
 # workspace/atoasap/rato-processing/
@@ -15,7 +15,7 @@ exit 1
 
 comp=
 loc_dir="./local/candidates/${comp}"
-lib_dir="../component-library/${comp}"
+lib_dir="../oscal-component-definitions/${comp}"
 
 candidate html $comp
 
@@ -33,7 +33,7 @@ popd
 
 comp=
 
-lib_dir="../component-library/${comp}"
+lib_dir="../oscal-component-definitions/${comp}"
 oscal="$lib_dir/oscal/${comp}.json"
 
 poetry run python examples/oc_to_oscal_components.py $lib_dir/opencontrol/opencontrol.yaml > $oscal

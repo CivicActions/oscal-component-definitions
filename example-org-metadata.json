@@ -29,17 +29,17 @@
       "component-libraries": [
         {
           "name": "CivicActions",
-          "url": "https://github.com/CivicActions/component-library"
+          "url": "https://github.com/CivicActions/oscal-component-definitions"
         }
       ],
       "component-definitions": [
         {
           "name": "django",
-          "url": "https://github.com/CivicActions/component-library/tree/main/django"
+          "url": "https://github.com/CivicActions/oscal-component-definitions/tree/main/django"
         },
         {
           "name": "drupal",
-          "url": "https://github.com/CivicActions/component-library/tree/main/drupal"
+          "url": "https://github.com/CivicActions/oscal-component-definitions/tree/main/drupal"
         }
       ]
     }

@@ -12,8 +12,8 @@ cd OSCAL
 git checkout release-1.0
 cd ..
 
-git clone git@github.com:CivicActions/component-library.git
-cd component-library
+git clone git@github.com:CivicActions/oscal-component-definitions.git
+cd oscal-component-definitions
 # git checkout oscal-1.0.2 - optional
 
 for comp in $(find . -name opencontrol.yaml | cut -d'/' -f 2); do

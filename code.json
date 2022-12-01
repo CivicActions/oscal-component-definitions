@@ -10,7 +10,7 @@
       "name": "AWS IaaS",
       "version": "v1.x",
       "organization": "CivicActions",
-      "repositoryURL": "https://github.com/CivicActions/component-library/tree/main/aws",
+      "repositoryURL": "https://github.com/CivicActions/oscal-component-definitions/tree/main/aws",
       "description": "Amazon Web Services (AWS) Infrastructure as a Service (IaaS)",
       "permissions": {
         "licenses": [
@@ -37,7 +37,7 @@
       ],
       "contact": {
         "name": "GitHub Issues",
-        "URL": "https://github.com/CivicActions/component-library/issues"
+        "URL": "https://github.com/CivicActions/oscal-component-definitions/issues"
       },
       "date": {
         "created": "2021-07-16",
@@ -49,7 +49,7 @@
       "name": "Django CMS",
       "version": "v4.x",
       "organization": "CivicActions",
-      "repositoryURL": "https://github.com/CivicActions/component-library/tree/main/django",
+      "repositoryURL": "https://github.com/CivicActions/oscal-component-definitions/tree/main/django",
         "description": "Django Content Managemment System (CMS)",
       "permissions": {
         "licenses": [
@@ -76,7 +76,7 @@
       ],
       "contact": {
         "name": "GitHub Issues",
-        "URL": "https://github.com/CivicActions/component-library/issues"
+        "URL": "https://github.com/CivicActions/oscal-component-definitions/issues"
       },
       "date": {
         "created": "2021-07-16",
@@ -88,7 +88,7 @@
       "name": "Drupal CMS",
       "version": "v9.x",
       "organization": "CivicActions",
-      "repositoryURL": "https://github.com/CivicActions/component-library/tree/main/drupal",
+      "repositoryURL": "https://github.com/CivicActions/oscal-component-definitions/tree/main/drupal",
         "description": "Drupal Content Managemen System" (CMS),
       "permissions": {
         "licenses": [
@@ -115,7 +115,7 @@
       ],
       "contact": {
         "name": "GitHub Issues",
-        "URL": "https://github.com/CivicActions/component-library/issues"
+        "URL": "https://github.com/CivicActions/oscal-component-definitions/issues"
       },
       "date": {
         "created": "2021-07-16",
@@ -127,7 +127,7 @@
       "name": "Ilias",
       "version": "v7.x",
       "organization": "CivicActions",
-      "repositoryURL": "https://github.com/CivicActions/component-library/tree/main/ilias",
+      "repositoryURL": "https://github.com/CivicActions/oscal-component-definitions/tree/main/ilias",
         "description": "Ilias Learning Management System (LMS)",
       "permissions": {
         "licenses": [
@@ -154,7 +154,7 @@
       ],
       "contact": {
         "name": "GitHub Issues",
-        "URL": "https://github.com/CivicActions/component-library/issues"
+        "URL": "https://github.com/CivicActions/oscal-component-definitions/issues"
       },
       "date": {
         "created": "2021-07-16",
@@ -166,7 +166,7 @@
       "name": "SSH",
       "version": "v1.0.0",
       "organization": "CivicActions",
-      "repositoryURL": "https://github.com/CivicActions/component-library/tree/main/ssh",
+      "repositoryURL": "https://github.com/CivicActions/oscal-component-definitions/tree/main/ssh",
         "description": "Secure Shell (SSH)",
       "permissions": {
         "licenses": [
@@ -192,7 +192,7 @@
       ],
       "contact": {
         "name": "GitHub Issues",
-        "URL": "https://github.com/CivicActions/component-library/issues"
+        "URL": "https://github.com/CivicActions/oscal-component-definitions/issues"
       },
       "date": {
         "created": "2021-07-16",
