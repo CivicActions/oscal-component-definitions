@@ -4,9 +4,36 @@
     "metadata": {
       "title": "Drupal",
       "published": "2022-10-10T17:02:51.325967+00:00",
-      "last-modified": "2022-10-10T17:02:51.325971+00:00",
-      "version": "unknown",
-      "oscal-version": "1.0.0"
+      "last-modified": "2024-05-13T15:00:00.612641+00:00",
+      "version": "20240513",
+      "oscal-version": "1.0.0",
+      "roles": [
+        {
+          "id": "creator",
+          "title": "Creator"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "a37f870b-12f8-46d9-82c4-df9a3a559fb2",
+          "type": "organization",
+          "name": "CivicActions"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "creator",
+          "party-uuids": [
+            "a37f870b-12f8-46d9-82c4-df9a3a559fb2"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "latest-version",
+          "href": "https://github.com/CivicActions/oscal-component-definitions/tree/main"
+        }
+      ]
     },
     "components": [
       {
@@ -17,8 +44,8 @@
         "control-implementations": [
           {
             "uuid": "45da0e58-7761-4ae9-96c8-333999dfb0eb",
-            "source": "https://raw.githubusercontent.com/usnistgov/oscal-content/master/nist.gov/SP800-53/rev4/json/NIST_SP-800-53_rev4_catalog.json",
-            "description": "NIST_SP80053r5",
+            "source": "https://raw.githubusercontent.com/usnistgov/oscal-content/v1.0.0/nist.gov/SP800-53/rev4/json/NIST_SP-800-53_rev4_catalog.json",
+            "description": "NIST_SP-800-53_rev4",
             "implemented-requirements": [
               {
                 "uuid": "41863731-5ef4-4056-889a-026ee4ff6c07",

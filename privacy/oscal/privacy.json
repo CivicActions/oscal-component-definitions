@@ -4,9 +4,36 @@
     "metadata": {
       "title": "Privacy",
       "published": "2022-10-10T17:07:00.930720+00:00",
-      "last-modified": "2022-10-10T17:07:00.930726+00:00",
-      "version": "unknown",
-      "oscal-version": "1.0.0"
+      "last-modified": "2024-05-13T15:00:00.612641+00:00",
+      "version": "20240513",
+      "oscal-version": "1.0.0",
+      "roles": [
+        {
+          "id": "creator",
+          "title": "Creator"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "a37f870b-12f8-46d9-82c4-df9a3a559fb2",
+          "type": "organization",
+          "name": "CivicActions"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "creator",
+          "party-uuids": [
+            "a37f870b-12f8-46d9-82c4-df9a3a559fb2"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "latest-version",
+          "href": "https://github.com/CivicActions/oscal-component-definitions/tree/main"
+        }
+      ]
     },
     "components": [
       {
@@ -17,8 +44,8 @@
         "control-implementations": [
           {
             "uuid": "fa173924-77ec-4f3d-955f-60b7abe195b1",
-            "source": "https://raw.githubusercontent.com/usnistgov/oscal-content/master/nist.gov/SP800-53/rev4/json/NIST_SP-800-53_rev4_catalog.json",
-            "description": "NIST_SP80053r4",
+            "source": "https://raw.githubusercontent.com/usnistgov/oscal-content/v1.0.0/nist.gov/SP800-53/rev4/json/NIST_SP-800-53_rev4_catalog.json",
+            "description": "NIST_SP-800-53_rev4",
             "implemented-requirements": [
               {
                 "uuid": "94f457ce-8b90-4fb8-b175-e9552e5e3e62",

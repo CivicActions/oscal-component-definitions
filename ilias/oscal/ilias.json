@@ -4,9 +4,36 @@
     "metadata": {
       "title": "Ilias LMS",
       "published": "2022-10-10T17:04:46.005102+00:00",
-      "last-modified": "2022-10-10T17:04:46.005107+00:00",
-      "version": "unknown",
-      "oscal-version": "1.0.0"
+      "last-modified": "2024-05-13T15:00:00.612641+00:00",
+      "version": "20240513",
+      "oscal-version": "1.0.0",
+      "roles": [
+        {
+          "id": "creator",
+          "title": "Creator"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "a37f870b-12f8-46d9-82c4-df9a3a559fb2",
+          "type": "organization",
+          "name": "CivicActions"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "creator",
+          "party-uuids": [
+            "a37f870b-12f8-46d9-82c4-df9a3a559fb2"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "latest-version",
+          "href": "https://github.com/CivicActions/oscal-component-definitions/tree/main"
+        }
+      ]
     },
     "components": [
       {
@@ -17,8 +44,8 @@
         "control-implementations": [
           {
             "uuid": "df33f215-5b94-4dff-9759-7440964812af",
-            "source": "https://raw.githubusercontent.com/usnistgov/oscal-content/master/nist.gov/SP800-53/rev4/json/NIST_SP-800-53_rev4_catalog.json",
-            "description": "NIST_SP80053r5",
+            "source": "https://raw.githubusercontent.com/usnistgov/oscal-content/v1.0.0/nist.gov/SP800-53/rev4/json/NIST_SP-800-53_rev4_catalog.json",
+            "description": "NIST_SP-800-53_rev4",
             "implemented-requirements": [
               {
                 "uuid": "2c2fd9d3-db64-40d5-b012-ac0163388a61",
