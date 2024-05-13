@@ -4,9 +4,36 @@
     "metadata": {
       "title": "Django",
       "published": "2022-09-26T13:49:50.612630+00:00",
-      "last-modified": "2022-09-26T13:49:50.612641+00:00",
-      "version": "unknown",
-      "oscal-version": "1.0.0"
+      "last-modified": "2024-05-12T22:10:00.612641+00:00",
+      "version": "20240512",
+      "oscal-version": "1.0.0",
+      "roles": [
+        {
+          "id": "creator",
+          "title": "Creator"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "a37f870b-12f8-46d9-82c4-df9a3a559fb2",
+          "type": "organization",
+          "name": "CivicActions"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "creator",
+          "party-uuids": [
+            "a37f870b-12f8-46d9-82c4-df9a3a559fb2"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rel": "latest-version",
+          "href": "https://github.com/CivicActions/oscal-component-definitions/tree/main"
+        }
+      ]
     },
     "components": [
       {
@@ -17,8 +44,8 @@
         "control-implementations": [
           {
             "uuid": "f07f57e6-e910-486b-8871-e1fb8a2a25ca",
-            "source": "https://raw.githubusercontent.com/usnistgov/oscal-content/master/nist.gov/SP800-53/rev4/json/NIST_SP-800-53_rev4_catalog.json",
-            "description": "NIST SP 800-53 Revision 4",
+            "source": "https://raw.githubusercontent.com/usnistgov/oscal-content/v1.0.0/nist.gov/SP800-53/rev4/json/NIST_SP-800-53_rev4_catalog.json",
+            "description": "NIST_SP-800-53_rev4",
             "implemented-requirements": [
               {
                 "uuid": "beddcd1f-d3e1-4a8f-9d51-43c87881f64c",
@@ -142,8 +169,8 @@
           },
           {
             "uuid": "7b384bf9-c0f3-4d1d-9984-1ed7d4a45ffe",
-            "source": "https://raw.githubusercontent.com/usnistgov/oscal-content/master/nist.gov/SP800-53/rev5/json/NIST_SP-800-53_rev5_catalog.json",
-            "description": "NIST SP 800-53 Revision 5",
+            "source": "https://raw.githubusercontent.com/usnistgov/oscal-content/v1.0.0/nist.gov/SP800-53/rev5/json/NIST_SP-800-53_rev5_catalog.json",
+            "description": "NIST_SP-800-53_rev5",
             "implemented-requirements": [
               {
                 "uuid": "c6ceac51-35d4-432f-a62a-33f9c08a3da1",
