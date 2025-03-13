@@ -12,4 +12,4 @@ The indicated versions below are currently being supported with security updates
 
 We acknowledge that every line of code that we write may potentially contain security issues.
 We are committed to address issues responsibly and provide patches as quickly as possible.
-Please contact us via [E-Mail](opensource@civicactions.com) immediately after discovery of the vulnerability. Thanks!
+Please contact us via [E-Mail](mailto:opensource@civicactions.com) immediately after discovery of the vulnerability. Thanks!
